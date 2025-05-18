@@ -1,12 +1,43 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Workout Generator
 
-## Description
-Optional section to provide a more detailed overview of the project.
+A personalized workout generator that creates custom exercise routines based on your current fitness capabilities.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- Input your current fitness level and exercise capabilities
+- Generate customized workouts for different body parts
+- Track workout history
+- Modern, user-friendly interface
+- Automatic workout scaling based on your capabilities
 
+## Setup
+
+1. Make sure you have Python 3.7+ installed on your system
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```
+   python workout_app.py
+   ```
+
+## How to Use
+
+1. **Profile Tab**
+   - Select your fitness level (beginner/intermediate/advanced)
+   - Enter your current maximum repetitions for various exercises
+   - Click "Save Profile" to store your information
+
+2. **Generate Workout Tab**
+   - Choose the type of workout you want (Full Body/Upper Body/Lower Body/Core)
+   - Click "Generate Workout" to create a personalized routine
+   - The workout will be scaled based on your capabilities
+
+3. **History Tab**
+   - View your last 5 generated workouts
+   - Track your workout history and progress
+
+## Data Storage
+
+Your profile and workout history are stored locally in `user_data.json`. 
